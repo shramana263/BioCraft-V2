@@ -1,7 +1,6 @@
 import React from 'react'
 
 import { Route, Routes } from 'react-router-dom'
-import Landing from '../components/Landing'
 import Signup from "../components/Signup";
 import Signin from '../components/Signin';
 import Templates from '../components/Templates';
@@ -10,6 +9,7 @@ import ContactUs from '../pages/ContactUs';
 import MakeBiodata from '../pages/MakeBiodata';
 import Review from '../pages/Review';
 import Faq from '../pages/Faq';
+import Landing from '../components/Landing';
 
 const GuestRouter = () => {
     // console.log("I am in guest layout")
