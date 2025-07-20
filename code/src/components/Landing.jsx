@@ -20,7 +20,7 @@ const Landing = () => {
     return (
         <>
             <div className={`${openSidebar} bg-[#EFF2F9] dark:bg-neutral-900 md:ps-20 sm:ps-10 md:h-[630px] min-[412px]:h-96`}>
-                <div className={`${openSidebar} ms-10 flex gap-28 md:ps-20 ps-0 min-[412px]:ms-0`}>
+                <div className={`${openSidebar} ms-10 flex flex-col xl:flex-row gap-28 md:ps-20 ps-0 min-[412px]:ms-0`}>
                     <div className='md:w-1/3 md:pt-10 md:pb-20 xl:pt-26 xl:pb-28 sm:pt-10 sm:w-1/2 min-[412px]:w-full min-[412px]:p-5 md:p-0 '>
                         <div className='motion-preset-slide-right'>
 
